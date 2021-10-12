@@ -1,6 +1,7 @@
 
 # Deployment of EC2 instance and hosting sample Website using AWSCLI
 
+![Visitor Count](https://profile-counter.glitch.me/Anup-Narkhede/count.svg)
 
 ## Description
 
