@@ -53,7 +53,7 @@ Default output format [None]: json
 
 ## STEP 2 - Creation of VPC, Subnets, Internet Gateway, Route tables
 
-Here, I have created a vpc with IP range 172.16.0.0/16
+Here, I have created a vpc with IP range 172.32.0.0/16
 
 ```bash
 aws ec2 create-vpc --cidr-block 172.32.0.0/16
