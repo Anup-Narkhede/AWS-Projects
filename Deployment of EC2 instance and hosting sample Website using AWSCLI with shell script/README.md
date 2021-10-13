@@ -9,9 +9,9 @@ We are going to create an AWS instance without AWS console.
 
 How is that possible ?
 
-Here we want to create a basic infrastructure for a website where there is no access to AWS console.  Initially,  we are creating a VPC  in ap-south-1 region with 2 public subnets. Then the next step is the creation of EC2 instance, which includes selecting an appropriate AMI, Instance type, security groups, key pairs, etc...In this project we are using http as our web-server. I have provided here with a detailed command summary that I have executed in the project.
+Here we want to create a basic infrastructure for a website where there is no access to AWS console.  Initially,  we are creating a VPC  in ap-south-1 region with 1 public subnet. Then the next step is the creation of EC2 instance, which includes selecting an appropriate AMI, Instance type, security groups, key pairs, etc...In this project we are using http as our web-server. I have provided here with a detailed command summary that I have executed in the project.
   
-## Diagram
+## Architecture Diagram
 
 ![App Screenshot](https://demobucketanup.s3.ap-south-1.amazonaws.com/figma+aws.png)
 
@@ -305,7 +305,7 @@ t2.micro is the only instance type available in the free tier.
 aws ec2 run-instances --image-id resolve:ssm:/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2 --count 1 --instance-type t2.micro --key-name oeaanup --security-group-ids sg-038586d6829de9c93 --subnet-id subnet-0eb614a78cb9b8051
 
 ```
-#### output
+#### output 
 
 ```bash
 {
@@ -348,7 +348,7 @@ aws ec2 create-tags --resources i-086fa543d8bfc82a6 --tags Key=Name,Value=anup-o
 ```bash
 aws ec2 describe-instances --instance-ids i-086fa543d8bfc82a6 --query "Reservations[0].Instances[0].PublicIpAddress"
 ```
-## ---------EC2 Instance Created With Public IP-----------
+## EC2 Instance Created With Public IP
 
 
 
