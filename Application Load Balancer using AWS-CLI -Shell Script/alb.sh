@@ -131,7 +131,7 @@ cat <<EOF > conditions-path.json
   }
 ]
 EOF
-#Add remaining Target groups by Adding New Rules
+#Add remaining Target groups by Adding New Rules:
 AWS_ALB_LISTENER_RULE_ARN=$(aws elbv2 create-rule \
     --listener-arn $listner_ARN\
     --priority $i \
