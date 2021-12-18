@@ -48,7 +48,7 @@ Here we are Creating Application Load Balancer
 
            #### • Routing based on path in URL (example.com/users & example.com/posts) - We used
 
-           ![App Screenshot](https://demobucketanup.s3.ap-south-1.amazonaws.com/ALB.png)
+![App Screenshot](https://demobucketanup.s3.ap-south-1.amazonaws.com/ALB.png)
 
            • Routing based on hostname in URL (one.example.com & other.example.com)
 
