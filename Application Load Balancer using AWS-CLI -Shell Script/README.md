@@ -46,7 +46,7 @@ Here we are Creating Application Load Balancer
 
 #### Routing tables to different target groups:
 
-           #### • Routing based on path in URL (example.com/users & example.com/posts) - We used
+           • Routing based on path in URL (example.com/users & example.com/posts) - We used
 
 ![App Screenshot](https://demobucketanup.s3.ap-south-1.amazonaws.com/ALB.png)
 
