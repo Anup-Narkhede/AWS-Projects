@@ -1,8 +1,6 @@
 
 # Launching Application Load Balancer using AWS CLI
 
-![Visitor Count](https://profile-counter.glitch.me/Anup-Narkhede/count.svg)
-
 
 ## What is Load Balancing?
 Load Balancers are servers that forward internet traffic to multiple servers(EC2) instances downstream.
@@ -57,7 +55,7 @@ Here we are Creating Application Load Balancer
 • ALB are a great fit for micro services & container-based application 
 (example: Docker & Amazon ECS
 
-## ---------------------------------------------------
+## ---------------------------------------------------------------------------------------------------------------
 ## SERVICES USED :
 
 1.EC2 Instances  
