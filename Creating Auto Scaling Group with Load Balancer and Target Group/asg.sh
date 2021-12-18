@@ -149,7 +149,7 @@ aws elbv2 create-listener \
 --port 80 \
 --default-actions Type=forward,TargetGroupArn=$genarn
 
-#Adding Routing Rules
+#Adding Routing Rules-
 echo "Adding Rules for Port 80 Listener";
 echo "Enter Port 80 Listener ARN:";
 read p80arn;
