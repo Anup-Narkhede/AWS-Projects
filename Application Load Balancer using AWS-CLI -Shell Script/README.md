@@ -7,8 +7,7 @@ Load Balancers are servers that forward internet traffic to multiple servers(EC2
 
 ![App Screenshot](https://github.com/Anup-Narkhede/AWS-Projects/blob/main/Imges/load_balancing.drawio.png)
 
-https://github.com/Anup-Narkhede/AWS-Projects/blob/main/Imges/load_balancing.drawio.png
-https://demobucketanup.s3.ap-south-1.amazonaws.com/load_balancer.png
+
 ## Why use a load Balancer?
      + Spread load across multiple downstream instances
      + Expose a single point of access (DNS) to our Application
